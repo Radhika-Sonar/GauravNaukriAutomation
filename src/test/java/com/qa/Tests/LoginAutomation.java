@@ -41,7 +41,7 @@ public class LoginAutomation
 		   
 		   By username = By.xpath("//input[@placeholder='Enter your active Email ID / Username']");
 		   By password = By.xpath("//input[@placeholder='Enter your password']");
-		   
+		   	
 		   driver.findElement(username).clear();
 		   driver.findElement(username).sendKeys("sonarradhika1@gmail.com");
 		   driver.findElement(password).clear();
@@ -50,7 +50,7 @@ public class LoginAutomation
 		   driver.findElement(By.xpath("//button[text()='Login']")).click();
 		   driver.findElement(By.linkText("View profile")).click();
 		   
-		   File file = new File("src/main/resources/Files/Radhika_Sonar.pdf");
+		   File file = new File("src/main/resources/Files/Radhika_Sonar_Data_Analyst.pdf");
 		   driver.findElement(By.xpath("//input[@id='attachCV']")).sendKeys(file.getAbsolutePath());
 		   
 		   
