@@ -43,9 +43,9 @@ public class LoginAutomation
 		   By password = By.xpath("//input[@placeholder='Enter your password']");
 		   	
 		   driver.findElement(username).clear();
-		   driver.findElement(username).sendKeys("sonarradhika1@gmail.com");
+		   driver.findElement(username).sendKeys("gaurav.burhade77@gmail.com");
 		   driver.findElement(password).clear();
-		   driver.findElement(password).sendKeys("Radhika@21");
+		   driver.findElement(password).sendKeys("Lmessi@10");
 		   
 		   driver.findElement(By.xpath("//button[text()='Login']")).click();
 		   driver.findElement(By.linkText("View profile")).click();
